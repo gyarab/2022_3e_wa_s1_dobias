@@ -1,6 +1,13 @@
-img{
-    width: 100px;
-    height: 100px;
+.black{
+    background-color: black;
+    width: 70px;
+    height: 70px;
 }
+.white{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+}
+
 
 
