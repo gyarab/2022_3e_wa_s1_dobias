@@ -58,9 +58,26 @@
 
     <h2>Profil</h2>
     <form action="">
-      Jméno: <input type="text" name="jmeno"><br>
-      Rok Narození" <input type="number" name="birth_year"><br>
-      Terms: <input type="checkbox" name="terms"><br>
+      <div class="form-floating mb-3">
+    
+      <input id="jmenoid" class="form-control" type="text" name="jmeno"><br>
+      <label for="jmenoid">Jméno:</label>
+    </div>
+
+      Rok Narození: <input type="number" name="birth_year"><br>
+      
+      Terms: <input id="termsid" type="checkbox" name="terms">
+      <label for="termsid">souhlasím s podmínkami</label>
+      <br>
+
+      Nástroj: <br>
+      <input id="tool1" type="radio" name="tool" value="L"> 
+      <label for="tool1">Lopata</label><br>
+      <input id="tool2" type="radio" name="tool" value="H"> 
+      <label for="tool2">Hrábě</label> <br>
+      <input id="tool3" type="radio" name="tool" value="M"> 
+      <label for="tool3">Motyka</label><br>
+      
       Obrázek: <input type="file" name="avatar"><br>
       <select name="user_type">
         <option value="m">Male</option>
@@ -68,6 +85,7 @@
         <option value="n">Non-binary</option>
         <option value="b">Bojova helikoptera kámo</option>
       </select><br>
+      <textarea name="reamark" id="" cols="30" rows="10"></textarea><br>
       <input type="submit" value="SEND">
     </form>
 
